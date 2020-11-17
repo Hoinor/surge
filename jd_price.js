@@ -159,6 +159,7 @@ function add(arg1, arg2) {
 }
 
 function request_history_price(share_url, callback) {
+    console.log(share_url)
     const options = {
         url: "https://apapia-history.manmanbuy.com/ChromeWidgetServices/WidgetServices.ashx",
         headers: {
