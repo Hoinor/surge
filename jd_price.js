@@ -9,7 +9,7 @@ const consolelog = false;
 const url = $request.url;
 const body = $response.body;
 const $tool = tool();
-console.log('serverConfig:',serverConfig,'wareBusiness:',wareBusiness, 'basicConfig:'basicConfig)
+console.log('serverConfig:',path1,'wareBusiness:',path2, 'basicConfig:'path3)
 if (url.indexOf(path1) != -1) {
     let obj = JSON.parse(body);
     delete obj.serverConfig.httpdns;
